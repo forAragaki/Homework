@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.search{
+    width: 30%;
+    margin: 100px auto;
+    display: flex;
+    /*border: 1px solid red;*/
+}
+.search input{
+    float: left;//左浮动
+flex: 4;
+    height: 30px;
+    outline: none;
+    border: 1px solid red;
+    box-sizing: border-box;//盒子模型，怪异IE盒子模型，width=content+border*2+padding*2
+padding-left: 10px;
+}
+.search button{
+    float: right;
+    flex: 1;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border-style: none;
+    outline: none;
+}
+.search button i{
+    font-style: normal;
+}
+.search button:hover{
+    font-size: 16px;
+}
